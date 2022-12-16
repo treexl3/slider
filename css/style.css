@@ -1,0 +1,102 @@
+html,
+body{
+	height: 100%;
+	line-height: 1;
+	font-size: 14px;
+	background-color: #333;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	overflow: hidden;
+}
+
+.wrapper{
+	padding: 30px;
+	min-height: 100%;
+}
+
+.title{
+	font-size: 30px;
+	font-weight: 700;
+	color: #fff;
+	margin: 0 0 30px 0;
+}
+
+.image-slider{
+	margin: 175px 0 0 0;
+}
+
+.image-slider__wrapper {
+	
+}
+.image-slider__slide {
+	
+}
+.image-slider__image {
+	text-align: center;
+}
+.image-slider__image img{
+	max-width: 100%;
+}
+
+/*! Стрілки */
+.image-slider .swiper-button-prev:after,
+.image-slider .swiper-button-next:after{
+	color: #fff;
+	font-size: 80px;
+}
+
+/*! Булети */
+.swiper-horizontal>.swiper-pagination-bullets{
+	bottom: 175px;
+}
+.image-slider .swiper-pagination-bullet{
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	background-color: #fff;
+}
+
+/*! Фракції */
+.image-slider .swiper-pagination-fraction{
+	font-size: 20px;
+	color: #fff;
+}
+
+/*! Прогресбар */
+.image-slider .swiper-pagination-progressbar-fill{
+	background-color: #7a956b;
+}
+
+/*! Скролл */
+.image-slider .swiper-scrollbar-drag{
+	cursor: pointer;
+	background-color: #7a956b;
+}
+
+/*! Авто-ширина */
+/* .image-slider .swiper-slide{
+	width: auto;
+} */
+
+/*! Мультирядність */
+/* .image-slider{
+	height: 700px;
+}
+.image-slider .swiper-slide{
+	height: calc((100%-30px) / 2);
+	overflow: hidden;
+}  */
+
+/*! Вертикальний слайдер */
+/* .image-slider{
+	padding: 100px 0 0 0;
+	height: 700px;
+} */
+
+/*! Ефект cube */
+/* 
+.image-slider{
+	width: 500px;
+	margin: 0 auto;
+} 
+*/
